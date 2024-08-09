@@ -45,7 +45,7 @@ class _UiSettings(BaseSettings):
     logo: Optional[str] = "/assets/Contoso-ff70ad88.svg"
     chat_logo: Optional[str] = "/assets/Contoso-ff70ad88.svg"
     chat_title: str = "Boozy.ai"
-    chat_description: str = "Looking for a good cocktail to shake up? Ask me how to make any cocktail you can think of!"
+    chat_description: str = "Looking for a good cocktail to shake up? Ask me how to make any cocktail you can think of! (Please enjoy responsibly.)"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
