@@ -42,8 +42,8 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "Boozy.ai"
-    logo: Optional[str] = "assets/Contoso-ff70ad88.svg"
-    chat_logo: Optional[str] = "assets/Contoso-ff70ad88.svg"
+    logo: Optional[str] = "/assets/Contoso-ff70ad88.svg"
+    chat_logo: Optional[str] = "/assets/Contoso-ff70ad88.svg"
     chat_title: str = "Boozy.ai"
     chat_description: str = "Looking for a good cocktail to shake up? Ask me how to make any cocktail you can think of!"
     favicon: str = "/favicon.ico"
